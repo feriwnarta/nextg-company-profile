@@ -1,0 +1,32 @@
+.arrow-right {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.5em;
+    background-image: url(../assets/img/arrow-narrow-right.svg);
+    vertical-align: middle;
+}
+
+.arrow-outward {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.5em;
+    background-image: url(../assets/img/material-symbols_arrow-outward.png);
+    vertical-align: middle;
+}
+
+.arrow-right-blue-main {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.5em;
+    background-image: url(../assets/img/arrow-narrow-right.png);
+    vertical-align: middle;
+}
