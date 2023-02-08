@@ -226,7 +226,7 @@
           <div class="">
             <a href="#" class="subtitle-2-bold">
               Know more
-            </a>
+            </a>  
             <i class="arrow-right-blue-main align-items"></i>
           </div>
         </div>
@@ -256,9 +256,9 @@
 
 
 
-        <div class="col-sm-3 offset-sm-1 d-sm-flex flex-column justify-content-beetwen">
+        <div class="col-sm-3 offset-sm-1 d-sm-flex flex-column justify-content-between">
           <div>
-            <img src="assets/img/kepala-roda.png" width="48px" alt="icon manufacturing">
+            <img src="assets/img/distribution-company.png" width="48px" alt="icon distribution">
             <div class="margin-top-16 subtitle-1-bold">FnB Company</div>
             <ul class="margin-top-16 body-text-1-regular color-neutral-90">
               <li>Purchasing</li>
@@ -266,10 +266,11 @@
               <li>Sales</li>
               <li>Accounting and Finance</li>
               <li>Manufacturing</li>
-              <li>Point Of Sales</li>
+              <li>Point of Sales</li>
             </ul>
           </div>
-          <div>
+
+          <div class="button">
             <div class="">
               <a href="#" class="subtitle-2-bold">
                 Know more
@@ -277,6 +278,7 @@
               <i class="arrow-right-blue-main align-items"></i>
             </div>
           </div>
+
         </div>
 
 
@@ -293,66 +295,65 @@
   <section id="some-of-our-recent-work" class="margin-top-156">
     <div class="container">
       <div class="row">
-        <div class="col-5 offset-1">
-          <div class="row d-flex flex-column">
-            <div class="col">
+        <div class="col-sm-5 offset-sm-1">
+          <div class="row d-sm-flex flex-sm-column">
+            <div class="col-sm-12">
               <img src="assets/img/sinar-mutiara-web-erp.png" class="img-fluid" alt="sinar mutiara web erp">
+              <div class="subtitle-1-bold margin-top-32">Sinar Mutiara Web ERP</div>
+              <div class="subtitle-3-regular margin-top-20">Standardize, simplify, and integrate business processes with diverse human resources, financial resources, and distribution.</div>
             </div>
-            <div class="col">
-              <img src="assets/img/sinar-mutiara-web-erp.png" class="img-fluid" alt="sinar mutiara web erp">
+            <div class="col-sm-12 margin-top-40">
+              <img src="assets/img/bgm-pik-house-management.png" class="img-fluid" alt="sinar mutiara web erp">
+              <div class="subtitle-1-bold margin-top-24">BGM PIK Housing Management</div>
+              <div class="subtitle-3-regular margin-top-20 color-neutral-90">Assist the housing management to monitor and make reports related to the needs of residents.</div>
             </div>
           </div>
         </div>
 
-        <div class="col-5">
-          <div class="row d-flex flex-column">
-            <div class="col">
+        <div class="col col-sm-5">
+          <div class="row d-sm-flex flex-sm-column">
+            <div class="col-sm-12">
               <img src="assets/img/tru-color.png" class="img-fluid" alt="sinar mutiara web erp">
               <div class="subtitle-1-bold margin-top-32">TRUcolor Web E-Commerce</div>
               <div class="subtitle-3-regular color-neutral-90 margin-top-16">24 hours of processing orders, receiving payments, managing shipping and logistics, and providing customer support services.</div>
             </div>
 
-            <div class="col margin-top-40">
+            <div class="col-sm-12 margin-top-40">
               <img src="assets/img/bgm-pik.png" class="img-fluid" alt="sinar mutiara web erp">
+              <div class="subtitle-1-bold color-neutral-100 margin-top-32">BGM PIK Mobile Apps ( ios & android )</div>
+              <div class="subtitle-3-regular color-neutral-90 margin-top-20">Make it easier for the residents of the housing complex to report what is happening around the residential neighborhood.</div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
-    <!-- <div class="container text-center">
-      <div class="primary-blue-pigment-main heading-1-bold">Some of our Recent Work</div>
-      <div class="subtitle-2-regular color-neutral-80">The work that we have done from several types of companies and types of <br> projects</div>
-    </div>
-
-    <div class="row">
-      <div class="col-5 offset-1">
-        <img src="assets/img/sinar-mutiara-web-erp.png" class="img-fluid" alt="sinar mutiara web erp">
-      </div>
-      <div class="col-5 bg-danger flex-column d-flex align-self-start">
-        <img src="assets/img/tru-color.png" class="img-fluid" alt="sinar mutiara web erp">
-        <div>
-          TRUcolor Web E-Commerce
-        </div>
-        <div>24 hours of processing orders, receiving payments, managing shipping and logistics, and providing customer support services.</div>
-      </div>
-
-      <div class="col-5 offset-1">
-        <img src="assets/img/sinar-mutiara-web-erp.png" class="img-fluid" alt="sinar mutiara web erp">
-      </div>
-
-      <div class="col-5 d-flex flex-column align-self-start">
-        <img src="assets/img/sinar-mutiara-web-erp.png" class="img-fluid" alt="sinar mutiara web erp">
-        <div>BGM PIK Mobile Apps ( ios & android )</div>
-      </div>
-
-    </div> -->
-
-
   </section>
-  <!-- End section some of our recet work -->
+  <!-- End section some of our recent work -->
+
+  <!-- Section Our Client Speak -->
+  <section id="our-client-speak" class="margin-top-156">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 position-relative bg-primary-blue-pigment-30 height-element d-flex align-items-center justify-content-center">
+          
+            <img width="143" src="assets/img/element-quote.png" class="element-1" alt="">
+            <div class="">
+            <div class="title-2-bold">
+              Our Client <br> Speak
+            </div>
+            <div class="margin-top-24 subtitle-3-regular color-neutral-90">We have been working with clients <br>around the world
+            </div>
+            </div>
+          
+
+        </div>
+        <div class="col-sm-6 bg-primary-blue-pigment-10 d-flex flex-column justify-content-center g-0">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Section Our Client Speak -->
 
 
 

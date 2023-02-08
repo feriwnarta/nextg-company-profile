@@ -6,6 +6,15 @@
     color: #0F1031
 }
 
+/* background color */
+.bg-primary-blue-pigment-30 {
+    background-color: #999BD2;
+}
+
+.bg-primary-blue-pigment-10 {
+    background-color: #D6D7ED;
+}
+
 
 
 /* secondary color */
@@ -25,6 +34,9 @@
 
 
 /* font color */
+.color-neutral-100 {
+    color: #0A0A0A;
+}
 .color-neutral-90 {
     color: #404040;
 }

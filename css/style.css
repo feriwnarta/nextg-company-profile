@@ -1,5 +1,36 @@
+/* html, body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+} */
+
 a {
     text-decoration: none;
     color: black;
+}
+
+.element-1 {
+    position: absolute;
+    top: 24.2%;
+    left: 14.2%;
+}
+
+.content-review {
+    margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .element-1 {
+        top: 24.2%;
+        left: 6%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .element-1 {
+        top: 24.2%;
+        left: 0%;
+    }
 }
 

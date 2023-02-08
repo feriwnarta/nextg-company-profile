@@ -43,6 +43,14 @@
     padding-right: 178px;
 }
 
+.height-element {
+    height: 636px;
+}
+
+.margin-left-22 {
+    margin-left: 22px;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
