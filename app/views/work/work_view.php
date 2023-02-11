@@ -1,4 +1,4 @@
-<section id="work" class="margin-top-68">
+<section id="work" class="margin-top-68 margin-bottom-200">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-sm-7">
