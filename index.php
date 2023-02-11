@@ -387,7 +387,7 @@
                     <div class="futura-bkt-bt">CV. SINAR MUTIARA</div>
                   </div>
 
-                  <div class="bg-danger">
+                  <div class="">
                     <button class="btn btn-icon-chevron">
                       <i class="chevron-left"></i>
                     </button>
