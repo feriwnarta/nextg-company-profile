@@ -2,6 +2,10 @@
     margin-top: 124px;
 }
 
+.margin-top-167 {
+    margin-top: 167px;
+}
+
 .margin-top-156 {
     margin-top: 156px;
 }
@@ -51,6 +55,17 @@
     margin-left: 22px;
 }
 
+.padding-on-cta {
+    padding: 24px 40px;
+}
+
+.margin-left-16 {
+    margin-left: 16px;
+}
+
+.margin-left-8 {
+    margin-left: 8px;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -65,8 +80,9 @@
 
     .padding-left-right-178 {
         padding-left: 0px;
-
     }
+
+    
 
 
 }

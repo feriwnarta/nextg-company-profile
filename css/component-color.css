@@ -7,6 +7,10 @@
 }
 
 /* background color */
+.bg-primary-blue-pigment-main {
+    background-color: #2E3192;
+}
+
 .bg-primary-blue-pigment-30 {
     background-color: #999BD2;
 }
@@ -14,6 +18,7 @@
 .bg-primary-blue-pigment-10 {
     background-color: #D6D7ED;
 }
+
 
 
 
@@ -28,6 +33,11 @@
 
 .secondary-medium-sea-grean {
     color: #38B272;
+}
+
+/* background cta */
+.background-cta {
+    background-color: rgba(214, 215, 237, 0.25);
 }
 
 

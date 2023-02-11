@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/component-spacer.css">
   <link rel="stylesheet" href="css/component-color.css">
   <link rel="stylesheet" href="css/component-icon.css">
-  <link rel="stylesheet" href="assets/css/satoshi.css">
+  <link rel="stylesheet" href="assets/fonts/css/font.css">
 
   <title>Hello, world!</title>
 </head>
@@ -75,7 +75,14 @@
           When business and technology are synergized.
         </div>
 
-        <button class="btn btn-icon-text margin-top-40"><i class="arrow-right"></i>See what we can do</button>
+        <!-- <button class="btn btn-icon-text margin-top-40"><i class="arrow-right"></i>See what we can do</button> -->
+        <div class="margin-top-40 subtitle-3-regular">
+          <a href="#">
+            <i class="arrow-right"></i>
+            See what we can do
+          </a>
+        </div>
+        
 
       </div>
 
@@ -334,10 +341,10 @@
   <section id="our-client-speak" class="margin-top-156">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-6 position-relative bg-primary-blue-pigment-30 height-element d-flex align-items-center justify-content-center">
+        <div class="col-sm-6 position-relative bg-primary-blue-pigment-30 d-flex align-items-center justify-content-center">
           
-            <img width="143" src="assets/img/element-quote.png" class="element-1" alt="">
-            <div class="">
+            <!-- <img width="143" src="assets/img/element-quote.png" class="element-1" alt=""> -->
+            <div class=""> 
             <div class="title-2-bold">
               Our Client <br> Speak
             </div>
@@ -347,13 +354,129 @@
           
 
         </div>
-        <div class="col-sm-6 bg-primary-blue-pigment-10 d-flex flex-column justify-content-center g-0">
-          
+        <div class="col-sm-6 testimoni-spacer bg-primary-blue-pigment-10 d-flex flex-column justify-content-center g-0">
+          <div class="testimoni row bg-white d-flex flex-column g-0">
+            <div class="col-sm-12">
+              <div class="d-flex justify-content-end">
+                <img src="assets/img/quote-indigo.png" width="48px" height="40px" alt="">
+              </div>
+            </div>
+
+            <div class="col-sm-12 margin-top-40">
+              <div class="d-flex flex-row">
+                <div class="image-testimoni">
+                  <img src="assets/img/bu-mega.png" alt="" width="64px" height="64px">
+                </div>
+                <div class="name-testimoni margin-left-16">
+                  <div class="subtitle-3-bold">Mega Pratiwi</div>
+                  <div class="body-text-1-regular">General Manager Sinar Mutiara</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 margin-top-20">
+              <div class="content-tetimoni">
+              We had an incredible experience working with Next-G and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.
+              </div>
+            </div>
+
+            <div class="col-sm-12 margin-top-167">
+              <div class="d-flex flex-row justify-content-between">
+                  <div class="logo-company d-flex flex-row align-items-center">
+                    <img src="assets/img/simut.png" alt="" width="45px" height="40px">
+                    <div class="futura-bkt-bt">CV. SINAR MUTIARA</div>
+                  </div>
+
+                  <div class="bg-danger">
+                    <button class="btn btn-icon-chevron">
+                      <i class="chevron-left"></i>
+                    </button>
+                    <button class="btn btn-icon-chevron">
+                      <i class="chevron-right"></i>
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <!-- End Section Our Client Speak -->
+
+  <!-- Section cta -->
+
+    <section id="cta" class="margin-top-156">
+        <div class="container background-cta radius-on-cta">
+          <div class="row d-flex align-items-center padding-on-cta">
+            <div class="col-sm-6">
+              <div class="subtitle-1-regular">Looking to design your new startup website? 
+                Looking to create an ERP system for your company ?
+                Looking to create an Mobile Apps for your products ?
+                or Looking to redesign your website ? 
+                Getting Started With Next-G IT Solutions
+              </div>
+
+              <div class="wrap-button-cta d-flex flex-row justify-content-start margin-top-32">
+              <button type="button" class="btn-primary-text-only">Contact us</button>
+              <button type="button" class="btn-primary-text-only margin-left-16">Contact us</button>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <img src="assets/img/image-cta.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+  
+  <!-- end section cta -->
+
+
+  <!-- section footer -->
+  <section id="footer" class="margin-top-156">
+    <div class="container">
+    <div class="divider-footer"></div>
+      <div class="footer-nextg">
+        <div class="row">
+          <div class="col">
+            <div>
+              <img src="assets/img/Logo.png" alt="" width="86px" height="40px">
+            </div>
+            <div class="subtitle-2-bold margin-top-20">PT. Sinar Solusi Informatika</div>
+          </div>
+          <div class="col">
+              <div class="heading-3-bold">Office</div>
+              <div class="subtitle-3-regular margin-top-20">Office
+      Jl. Sawah Dalam No. 90 Gondrong, Cipondoh, Kota Tangerang, Banten 15148 Indonesia.</div>
+          </div>
+          <div class="col">
+            <div class="heading-3-bold">Reach Us</div>
+            <div class="d-flex flex-row align-items-center margin-top-20">
+              <img src="assets/img/mail.png"  alt="" width="16px" height="16px">
+              <div class="subtitle-3-regular margin-left-8">info@nextg.website</div>
+            </div>
+            <div class="d-flex flex-row align-items-center margin-top-16">
+              <img src="assets/img/phone.png"  alt="" width="16px" height="16px">
+              <div class="subtitle-3-regular margin-left-8">( 021 ) 557 50 980</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="heading-3-bold">Follow Us</div>
+            <div class="d-flex flex-row align-items-center margin-top-20">
+              <img src="assets/img/instagram.png"  alt="" width="16px" height="16px">
+              <div class="subtitle-3-regular margin-left-8">instagram</div>
+            </div>
+            <div class="d-flex flex-row align-items-center margin-top-16">
+              <img src="assets/img/linkedin.png"  alt="" width="16px" height="16px">
+              <div class="subtitle-3-regular margin-left-8">linkeding</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    <div class="rectangle-footer"></div>
+  </section>
+  <!-- end section footer -->
 
 
 

@@ -21,6 +21,10 @@
     opacity: 0.2;
 }
 
+.btn-icon-chevron:hover {
+    background-color: rgb(218, 211, 211);
+}
+
 /* btn end icon text primary */
 
 /* btn icon text primary */
