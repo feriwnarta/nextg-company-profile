@@ -1,0 +1,114 @@
+/* html, body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+} */
+
+ul {
+    padding-left: 20px;
+}
+
+.description li {
+    padding-bottom: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.element-1 {
+    position: absolute;
+    top: 24.2%;
+    left: 14.2%;
+}
+
+body {
+    background-image:url("../assets/img/bg-blur.png");
+    background-size: cover;
+    height: 905px;
+    background-repeat: no-repeat;
+}
+
+.content-review {
+    margin: 0px;
+}
+
+.radius-on-cta {
+    border-radius: 20px;
+}
+
+.rectangle-footer {
+    width: 100%;
+    height: 8px;
+    background-color: #2E3192;
+}
+
+.testimoni {
+    padding: 42px 24px;
+}
+
+.footer-nextg {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.testimoni-spacer {
+    padding-bottom: 56px;
+    padding-top: 56px;
+    padding-right: 161px;
+
+}
+
+.divider-footer {
+    height: 2px;
+    background: linear-gradient(270deg,
+            rgba(192, 204, 218, 0.1) 0%,
+            rgba(192, 204, 218, 0.6) 55.73%,
+            rgba(192, 204, 218, 0.1) 100%);
+}
+
+.rectangle-services {
+    width: 4px;
+    height: 36px;
+    background-color: #404040;
+}
+
+.content-services {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #9E9E9E;
+    border-radius: 20px;
+}
+
+.content-services > div {
+    /* padding: 56px 0px; */
+    padding-top: 56px;
+    padding-bottom: 56px;
+    padding-right: 85px;
+}
+
+.content-services div + div {
+    border-end-end-radius: 20px;
+    border-start-end-radius: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .element-1 {
+        top: 24.2%;
+        left: 6%;
+    }
+
+    .element-2-container {
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .element-1 {
+        top: 24.2%;
+        left: 0%;
+    }
+}
