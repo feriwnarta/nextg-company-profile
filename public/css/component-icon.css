@@ -76,4 +76,14 @@
     vertical-align: middle;
 }
 
+.air-plane {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.5em;
+    background-image: url(../assets/img/paper-airplane.png);
+    vertical-align: middle;
+}
 

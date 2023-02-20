@@ -38,6 +38,13 @@ component font regular
    line-height: 32px;
 }
 
+.heading-2-regular {
+   font-family: 'Satoshi-Regular';
+   font-style: normal;
+   font-size: 40px;
+   line-height: 52px;
+}
+
 .body-text-1-regular {
    font-family: 'Satoshi-Regular';
    font-size: 14px;
@@ -64,7 +71,7 @@ component font regular
 
 /* 
    component font bold
-  */
+*/
 
 .title-1-bold {
    font-family: 'Satoshi-Bold';
@@ -83,6 +90,8 @@ component font regular
    font-size: 32px;
    line-height: 44px;
 }
+
+
 
 .title-2-bold {
    font-family: 'Satoshi-Bold';

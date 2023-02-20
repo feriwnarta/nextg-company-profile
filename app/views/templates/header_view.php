@@ -17,13 +17,13 @@
     <link rel="stylesheet" href="public/css/component-icon.css">
     <link rel="stylesheet" href="public/assets/fonts/css/font.css">
 
-    <title>Hello, world!</title>
+    <title>NEXT-G</title>
 </head>
 
 <body>
     <!-- Start Navbar -->
     <section id="header">
-        <nav class="navbar bg-none navbar-expand-lg navbar-light">
+        <nav class="navbar bg-white fixed-top navbar-expand-lg navbar-light">
             <div class="container d-flex">
                 <img src="public/assets/img/Logo.png" alt="logo nextg" width="120" height="auto">
 
