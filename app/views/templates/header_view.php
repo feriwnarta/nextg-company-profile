@@ -17,39 +17,41 @@
     <link rel="stylesheet" href="public/css/component-icon.css">
     <link rel="stylesheet" href="public/assets/fonts/css/font.css">
 
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
     <title>NEXT-G</title>
 </head>
 
 <body>
-    <!-- Start Navbar -->
-    <section id="header">
-        <nav class="navbar bg-white fixed-top navbar-expand-lg navbar-light">
-            <div class="container d-flex">
-                <img src="public/assets/img/Logo.png" alt="logo nextg" width="120" height="auto">
+<!-- Start Navbar -->
+<section id="header">
+    <nav class="navbar  navbar-expand-lg navbar-light">
+        <div class="container d-flex">
+            <img src="public/assets/img/Logo.png" alt="logo nextg" width="120" height="auto">
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active subtitle-3-regular" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                    </ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link subtitle-3-regular" aria-current="page" href="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link subtitle-3-regular" href="services">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link subtitle-3-regular" href="work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link subtitle-3-regular" href="about">About</a>
+                    </li>
+                </ul>
 
-                    <!-- contact us -->
-                    <button type="button" class="btn-primary-text-only">Contact us</button>
-                </div>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <!-- contact us -->
+                <button type="button" class="btn-primary-text-only contact-us-font contact-us-button">Contact us</button>
             </div>
-        </nav>
-        <!-- End Of Navbar -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- End Of Navbar -->

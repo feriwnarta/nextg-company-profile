@@ -6,6 +6,7 @@ class Services extends Controller
     {
         $this->view('templates/header_view');
         $this->view('services/services_view');
+        $this->view('templates/button_scroll_top_view');
         $this->view('components/cta-component');
         $this->view('templates/footer_view');
     }
