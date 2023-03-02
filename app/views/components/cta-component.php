@@ -12,8 +12,8 @@
                 </div>
 
                 <div class="wrap-button-cta d-flex flex-row justify-content-start margin-top-32">
-                    <button type="button" class="btn-primary-text-only">Contact us</button>
-                    <button type="button" class="btn-primary-text-only margin-left-16">Contact us</button>
+                    <button type="button" class="btn-primary-text-only contact-us-button">Contact us</button>
+                    <button type="button" class="btn-primary-text-only-outlined-blue-pigment-main margin-left-16" id="see-our-works">See Our Works</button>
                 </div>
             </div>
             <div class="col-sm-6">

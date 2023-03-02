@@ -18,7 +18,7 @@
 
             <!-- <button class="btn btn-icon-text margin-top-40"><i class="arrow-right"></i>See what we can do</button> -->
             <div class="margin-top-40 subtitle-3-regular">
-                <a href="#">
+                <a href="services">
                     <i class="arrow-right"></i>
                     See what we can do
                 </a>

@@ -34,7 +34,7 @@
                     </div>
                     <div class="d-flex flex-row align-items-center margin-top-16">
                         <img src="public/assets/img/linkedin.png" alt="" width="16px" height="16px">
-                        <div class="subtitle-3-regular margin-left-8">linkeding</div>
+                        <div class="subtitle-3-regular margin-left-8">linkedin</div>
                     </div>
                 </div>
             </div>
@@ -45,6 +45,7 @@
 <!-- end section footer -->
 
 
+<script src="public/js/button-trigger.js"></script>
 <script src="public/js/button-scroll-top.js"></script>
 <script src="public/js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -1,4 +1,3 @@
-
 localStorage.setItem('base_url', 'http://localhost/nextg')
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -10,24 +9,33 @@ document.addEventListener('DOMContentLoaded', function() {
     $('.nav-link').each(function() {
         let linkUrl = $(this).attr('href');
 
+        // $(this).removeClass('active');
 
-        // Jika URL link sama dengan URL halaman saat ini
-        if (currentUrl.indexOf(linkUrl) > -1) {
-            // Tambahkan class active ke link
+        currentUrl = currentUrl.split('/');
+        currentUrl = currentUrl.pop();
+
+
+
+        if(currentUrl == linkUrl) {
             $(this).addClass('active');
+        } else if (currentUrl == '') {
+            $(this).addClass('active');
+            return false;
         }
+
     });
+
+
+
 });
-
-
 
 $('.contact-us-button').click(function () {
     window.location.href = 'contactus';
 });
 
 
-$('#form-contactus').submit(function () {
 
+$('#form-contactus').submit(function (e) {
 
     var name = $('#name').val();
     var email = $('#email').val();
@@ -40,8 +48,10 @@ $('#form-contactus').submit(function () {
     file.append('name', name);
     file.append('email', email);
     file.append('subject', subject);
-    file.append('projectDetail', projectDetail);
+    file.append('project_detail', projectDetail);
     file.append('attachment', attachment);
+
+    e.preventDefault();
 
 
     $.ajax(
@@ -52,15 +62,38 @@ $('#form-contactus').submit(function () {
             processData: false,
             contentType:false,
             cache: false,
+            beforeSend: function(){
+                $('#btn-submit-form').html('<div class="spinner-border spinner-border-sm" role="status">\n' + '</div>');
+            },
             success: function (data) {
+                if(data != null || data != undefined) {
+                    alertSuccess();
+                } else {
 
-            }
+                }
+
+            },
+            complete: function(){
+                e.stopPropagation();
+            },
         }
     );
 
 
-
 });
+
+function alertSuccess() {
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Kirim Requirement Project Berhasil',
+        showConfirmButton: true,
+    }).then((rs) => {
+        if(rs.isConfirmed) {
+            location.reload();
+        }
+    });
+}
 
 
 

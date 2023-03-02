@@ -27,7 +27,7 @@
                     <div class="mb-3">
                         <input class="form-control form-control-sm" id="attachment" type="file" required="required">
                     </div>
-                    <button class="btn btn-icon-text-primary" style="color: white; width: 114px;">
+                    <button class="btn btn-icon-text-primary" type="submit" id="btn-submit-form" style="color: white; width: 114px;">
                         <i class="air-plane"></i>
                         Submit
                     </button>

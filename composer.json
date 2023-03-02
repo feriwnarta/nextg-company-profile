@@ -1,0 +1,16 @@
+{
+    "name": "next-g/nextg",
+    "description": "web company profile nextg",
+    "autoload": {
+        "psr-4": {
+            "NextG\\Nextg\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "feriwnarta",
+            "email": "feriwnarta26@gmail.com"
+        }
+    ],
+    "require": {}
+}

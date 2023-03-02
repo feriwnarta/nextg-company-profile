@@ -63,14 +63,14 @@
                 </div>
             </div>
 
-            <div class="bg-secondary-medium-red-violet-op20 col-sm-5 d-flex justify-content-center align-items-center">
+            <div class="bg-secondary-medium-red-violet-op-20 col-sm-5 d-flex justify-content-center align-items-center">
                 <div class="d-flex flex-column align-items-center">
                     <img src="public/assets/img/Timeline.png" alt="" width="280px">
                     <div class="subtitle-1-regular">
                         <i class="clock"></i>
                         Timeline : <span class="subtitle-1-bold">4-8 Weeks</span>
                     </div>
-                    <button class="btn btn-primary-text-only-outlined-blue-pigment-main margin-top-32">Ready For A Launch</button>
+                    <button class="btn btn-primary-text-only-outlined-blue-pigment-main margin-top-32" id="btn-for-launch">Ready For A Launch</button>
                 </div>
             </div>
         </div>
@@ -142,7 +142,7 @@
                         <i class="clock"></i>
                         Timeline : <span class="subtitle-1-bold">11-26 Weeks</span>
                     </div>
-                    <button class="btn btn-primary-text-only-outlined-blue-pigment-main margin-top-32">Ready For A Launch</button>
+                    <button class="btn btn-primary-text-only-outlined-blue-pigment-main margin-top-32" id="btn-for-launch">Ready For A Launch</button>
                 </div>
             </div>
         </div>

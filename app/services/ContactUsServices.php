@@ -1,10 +1,6 @@
 <?php
-require_once('../../PHPMailer/src/PHPMailer.php');
-require_once('../../PHPMailer/src/Exception.php');
-require_once('../../PHPMailer/src/SMTP.php');
+
 require_once('PhpMailerService.php');
-
-
 class ContactUsServices {
     private $name;
     private $email;
@@ -18,16 +14,17 @@ class ContactUsServices {
      * @param $subject
      * @param $projectDetail
      */
-    public function __construct($name, $email, $subject, $attachment)
+    public function __construct($name, $email, $subject, $attachment, $projectDetail)
     {
         $this->name = $name;
         $this->email = $email;
         $this->subject = $subject;
         $this->attachment = $attachment;
+        $this->projectDetail = $projectDetail;
     }
 
     public function sendOffer() {
-        return PhpMailerService::send($this->email, $this->subject, $this->projectDetail, $this->attachment);
+        PhpMailerService::send($this->email, $this->name, $this->subject, $this->projectDetail, $this->attachment);
     }
 
 

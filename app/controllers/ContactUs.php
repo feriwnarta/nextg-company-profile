@@ -1,5 +1,6 @@
 <?php
 
+
 class ContactUs extends Controller
 {
     public function index()
@@ -19,8 +20,59 @@ class ContactUs extends Controller
             $attachment = $_FILES['attachment'];
 
 
+            $name = $_POST['name'];
+            $email = $_POST['email'];
+            $subject = $_POST['subject'];
+            $projectDetail = $_POST['project_detail'];
+
+            $status = $this->moveUploadFile($attachment);
+
+            if($status == 'size melebihi kapasitas') {
+                echo 'size lebih';
+            } else if ($status == 'gagal pindah file') {
+                echo 'gagal pindah file';
+            } else if ( $status == 'ekstensi tidak diperbolehkan') {
+                echo 'ekstensi tidak diperbolehkan';
+            } else {
+                $this->service('ContactUsServices');
+                $contactService = new ContactUsServices($name, $email, $subject, $status, $projectDetail);
+                $result = $contactService->sendOffer();
+                echo $result;
+            }
+        }
+
+    }
+
+    function moveUploadFile($attachment) {
+
+
+        $target = 'file_attachment/';
+
+        $name = basename($attachment['name']);
+        $temp = $attachment['tmp_name'];
+        $size = $attachment['size'];
+        $extension = pathinfo($name, PATHINFO_EXTENSION);
+
+        $notAllowedExtension = array (
+            'exe', 'apk', 'lib'
+        );
+
+        if(!in_array($extension, $notAllowedExtension)) {
+
+            if($size > 5000000) {
+                return  'size melebihi kapasitas';
+            }
+
+            $target .= $name;
+            // move uploaded file
+            if(move_uploaded_file($temp, $target)) {
+                return  $target;
+            }
+
+            return 'gagal pindah file';
 
         }
 
+        return 'ekstensi tidak diperbolehkan';
     }
 }
