@@ -36,6 +36,7 @@
                         <img src="public/assets/img/linkedin.png" alt="" width="16px" height="16px">
                         <div class="subtitle-3-regular margin-left-8">linkedin</div>
                     </div>
+
                 </div>
             </div>
         </div>
